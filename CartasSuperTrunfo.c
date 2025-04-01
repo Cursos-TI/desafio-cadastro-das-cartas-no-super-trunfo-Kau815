@@ -30,6 +30,7 @@ int main() {
     scanf("%f", &PIB);
 
     printf("Novo commit \n");
+    printf("novo commit");
 
 
     return 0;
