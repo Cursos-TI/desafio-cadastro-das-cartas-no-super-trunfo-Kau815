@@ -29,8 +29,7 @@ int main() {
     printf("Digite o PIB: \n");
     scanf("%f", &PIB);
 
-    printf("Novo commit \n");
-    printf("novo commit");
+    printf("novo commit\n");
 
 
     return 0;
