@@ -29,6 +29,8 @@ int main() {
     printf("Digite o PIB: \n");
     scanf("%f", &PIB);
 
+    printf("Novo commit \n");
+
 
     return 0;
  
