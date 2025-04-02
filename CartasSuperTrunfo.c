@@ -7,6 +7,7 @@ int main() {
     char estado;
     char cidade[20];
     char código[5];
+    float media1, media2;
 
     printf("Digite seu Estado: \n");
     scanf("%s", &estado);
@@ -28,6 +29,12 @@ int main() {
 
     printf("Digite o PIB: \n");
     scanf("%f", &PIB);
+
+    media1 = (Populacao / KM);
+    printf("A Densidade populacional é: %.2f HAB/KM²\n", media1 );
+
+    media2 = (PIB / Populacao);
+    printf("O PIB per Capita é: %2.f Reais\n", media2);
 
     printf("novo commit\n");
 
